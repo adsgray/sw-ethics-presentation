@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-        <title>Patent Trial</title>
+        <title>Software Ethics</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
 		<link rel="stylesheet" href="style.css">
 
 		<!-- For syntax highlighting -->
@@ -40,171 +40,100 @@
 
                 <section data-markdown>
                     <script type="text/template">
-                        # Software Patent
-                        ## The Trial
-                        #### Mid 2004 to February 2005
-
-                        ![patent](img/patentimage1.jpg)
-
+                        # Software Ethics
+                        ## Why &amp; What
                     </script>
                 </section>
 
                 <section data-markdown>
                     <script type="text/template">
-                        ## My Goals for you
-                        * You will hesitate to ever send another e-mail (or tweet, or...)
-                        * You will hesitate to ever name another variable (or function, or...)
-                        * You may never read another software patent 
-                        * You may consider a career as an Expert Witness
+                        ## &quot;Bad&quot; Software
+                        * Lots of it out there
+                        * <p class="fragment roll-in">I don&#39;t mean buggy or sloppy</p>
+                        * <p class="fragment roll-in">I mean actively &quot;evil&quot;</p>
                     </script>
                 </section>
 
                 <section data-markdown>
                     <script type="text/template">
-                        ## Background
-                        * Trend Micro (_them_) vs. Fortinet (_us_)
-                        * U.S. Patent 5,623,600: _Virus detection and removal apparatus for computer networks_ (April 22, 1997)
-                        * I worked directly on the (allegedly) infringing software: transparent proxies for SMTP and FTP, as well as an anti-virus scanning engine.
+                        ## Examples
+                        * Mass surveillance systems (eg. revealed by Edward Snowden)
+                        * Volkswagen engine Defeat Device
+                        * &quot;Dark patterns&quot; (eg. trick users into doing or buying things)
                     </script>
                 </section>
 
                 <section data-markdown>
                     <script type="text/template">
-                        ## They call it _Discovery_
-                        * All e-mails and any other documentation that was potentially relevant was zipped up and sent to opposing side
-                        * Yes: quoted during deposition and trial (more on that later)
-
-                    </script>
-                </section>
-
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ## Deposition
-                        * Fall 2004
-                        * San Francisco (free trip!)
-                        * Instructional video from 1980s to prepare us for _trap questions_ (eg. When did you stop cooking the books?)
-
-                        ![sanfran](img/sanfran.jpg)
+                        ## Q: Who is to blame for problems with software?
+                        * Not a trick question.
+                        * <p class="fragment roll-in">A: Programmers.</p>
                     </script>
                 </section>
 
                 <section data-markdown>
                     <script type="text/template">
-                        ## Deposition
-                        * Parts of e-mails I wrote months/years earlier quoted and minutely parsed
-                        * Recorded on video and transcribed (I have a copy of my transcript)
-                        * Never ever ever ever talk to opposing counsel during breaks
-                    </script>
-                </section>
-
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ## Expert Witnesses
-                        * _We_ had an expert witness, and so did _they_
-                        * Someone with domain knowledge who is relatively impartial
-                        * <p class="fragment roll-in">But agrees with your interpretation of the facts</p>
-                        * <p class="fragment roll-in">BTW you are paying them money</p>
+                        ## What can change programmer behaviour?
+                        #### These are all wrong answers:
+                        * <p class="fragment roll-in">Laws and criminal prosecutions (against who?)</p>
+                        * <p class="fragment roll-in">Industry self-regulation (hahahaha)</p>
+                        * <p class="fragment roll-in">Market Solutions (hahahahahahahaha)</p>
                     </script>
                 </section>
 
                 <section data-markdown>
                     <script type="text/template">
-                        ## Expert Witnesses
-                        * One of my tasks was to help our expert witness learn the relevant parts of our source code
-                        * Another trip to San Francisco!
-                        * Leon had lots of cool stories
-                        * <p class="fragment roll-in">Hid in a small meeting room all day and snuck to the bathroom when the coast was clear to avoid alerting opposing lawyers to my presence</p>
-                        <p class="fragment roll-in">![sbhide](img/sbhide.gif)</p>
+                        ## What if...
+                        * Programmers stopped writing evil software?
+                        * WAT
                     </script>
                 </section>
 
                 <section data-markdown>
                     <script type="text/template">
-                        ## ITC Court
-                        * Washington, DC
-                        * Another free trip!
-                        * February 2005 (just after the Presidential Inauguration)
-
-                        ![whitehouse](img/wh.jpg)
-                    </script>
-                </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ## ITC Court
-                        * Three sets of lawyers:
-                            * Our lawyers
-                            * Their lawyers
-                            * ITC Court lawyers
-                        * Cross examination gets complicated
-                    </script>
-                </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ## ITC Court
-                        * Source code projected on large screen
-                        * Questions about variable names (seriously!!)
-                        * Questions about particular word usage in documentation I wrote (eg. _firewall_)
-                        * Questions about patent awareness (if you've read the patent then you're _knowingly infringing_ and that is worse)
-                    </script>
-                </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ### Also "hilariously" existential questions ![existential](img/exphil.jpg)
-
-                        * <p class="fragment roll-in">Does the code scan a copy of the e-mail attachment or does it scan _the attachment itself_?</p>
-                        * <p class="fragment roll-in">If an anti-virus engine checks a file against a set of signatures but finds no matches, has it in fact _actually done no work at all_? (My suggestion: it has matched the _Null Set of Signatures_)</p>
-                        * <p class="fragment roll-in">If I draw a dashed line on a piece of paper, is it now _two pieces of paper_? (my question)</p>
-                    </script>
-                </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ## Something that annoyed me
-                        * Words in patent claims are not given precise definitions
-                        * <p class="fragment roll-in">So a word can be interpreted to mean one thing in one claim...</p>
-                        * <p class="fragment roll-in">And then (with a straight face) interpreted to mean something else in another claim...</p>
-                        * <p class="fragment roll-in">And the court can find that you violate both claims</p>
-
-                        <p class="fragment roll-in">
-                        ![fey](img/feyannoyed.gif)
-                        </p>
-                    </script>
-                </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ## _Code Workarounds_
-                        * Renaming variables (seriously: ~~file~~ data. ~~attachment~~ data. I hope you like variables named data)
-                        * <p class="fragment roll-in">Larger code changes (fun: prototyping in Perl with design input from lawyers then later porting changes into C code base)</p>
-                        * <p class="fragment roll-in">Not writing _anything_ down (If you don't write it down it is not Discoverable!)</p>
+                        ## OK But
+                        #### How do I know whether something is evil or not
+                        #### Sometimes it is legitimately hard to  tell 
+                        * <p class="fragment roll-in">What if I told you guidelines already exist?</p>
                     </script>
                 </section>
 
 
                 <section data-markdown>
                     <script type="text/template">
-                        ## Fun Facts
-                        * Trial judge was around 80 years old (he'd been a patent examiner in the 1950s)
-                        * Doorman at Willard Hotel in Washington DC was an amateur cryptozoolist (I talked to him about Ogopogo a lot) 
-
-                        ![willard](img/will2.jpg)
-                        ![willard](img/ogopogo.jpg)
+                        ## ACM Code of Ethics
+                        * From 1992
+                        * Still broadly applicable
+                        * http://www.acm.org/about/code-of-ethics
                     </script>
                 </section>
 
                 <section data-markdown>
                     <script type="text/template">
-                        ## Conclusion
-                        * Expert Witness seems like a pretty nice gig.
-                        * <p class="fragment roll-in">But: As a programmer you might not be paranoid enough</p>
-                        * <p class="fragment roll-in">Don't read software patents</p>
-                        * <p class="fragment roll-in">When naming a variable, class, or file, consider: How will this name look in court when I'm being cross-examined about it?</p>
-                        * <p class="fragment roll-in">When writing documentation, consider: How can this be manipulated in court when I'm being cross-examined about it?</p>
+                        ## Example 1: Surveillance
+                        * Section 1.2: Avoid harm to others (including &quot;undesirable loss of information&quot;)
+                        * Section 1.7: Respect the privacy of others.
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## Example 2: Volkswagen Defeat Device
+                        * Section 1.2: Avoid harm to others (including &quot;property damage, or unwanted environmental impacts.&quot;)
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## Cannot play dumb, either
+                        * &quot;Well-intended actions, including those that accomplish assigned duties, may lead to harm unexpectedly. In such an event the responsible person or persons are obligated to undo or mitigate the negative consequences as much as possible. One way to avoid unintentional harm is to carefully consider potential impacts on all those affected by decisions made during design and implementation.&quot;
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## Managers also not off the hook
+                        * Section 3.1 Articulate social responsibilities of members of an organizational unit and encourage full acceptance of those responsibilities.
                     </script>
                 </section>
 
